@@ -10,25 +10,29 @@ namespace Example
     {
         static void Main(string[] args)
         {
+            double x = 0;
+            int i = 4;
+            double d = 4.0;
+            string s = "HackerRank ";
+            
+            int n = 12;
+            double o = 4.0;
+            string t = "is the best place to learn and practice coding!";
 
-            int[] numbers = {1,9,7,2,11,6,3 };
+            x = d + o;
+            x = Math.Round(x, 2);
 
-            Array.Sort(numbers);
-            Array.Reverse(numbers);
+            Console.WriteLine(i+n);
+            Console.WriteLine(x);
+            Console.WriteLine(s+t);
 
-            foreach (int i in numbers) 
-            { 
-                Console.WriteLine(" " + i);
-            }
-            Console.WriteLine(numbers.Length);
-            
 
-            
-            
-            
-            
-            
-            
+
+
+
+
+
+
             Console.ReadLine();
         }
     }
