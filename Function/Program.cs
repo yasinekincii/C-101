@@ -9,7 +9,7 @@ namespace Function
     internal class Program
     {
         //metotu global alana yazıyoruz.
-        private static void data()
+        private static void data()//metot olduğu için parantez açıp kapatıyorum.
         {
             Console.WriteLine("Müdür: Doğukan Şenol");
             Console.WriteLine("Öğretmen: Barış Özer");
@@ -23,6 +23,7 @@ namespace Function
         static void Main(string[] args)
         {
             //Metot programın herhangi bir yerinde kullanılmak için tasarlanmış alt programlardır.Metotlar bizi kod fazlalığından kurtarır.
+            //bu alanda metodu çağırıyoruz.
 
             data();
 

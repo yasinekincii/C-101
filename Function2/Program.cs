@@ -12,23 +12,23 @@ namespace Function2
         { 
             //burada yazdır adlı komutumun ne iş yapıcağını yazıcam
 
-            for(int i=0; i<10; i++)
+            for(int i=0; i<10; i++)//yazdır adlı komutum ekrana 10 kez yazdırma işlemi yapıcak
             {
-                Console.WriteLine(bilgi);//string türünden tanımladığım bu bilgiyi bana yazdırsın.
+                Console.WriteLine(bilgi);//döngü 10 defa döndüğü müddetçe string türünden tanımladığım bu bilgiyi bana yazdırsın.
                 //bilgiyi aşağıda çağırıcam
             }
         }
-
+        //GERİYE DEĞER DÖNDÜREN METOT ÖRNEĞİ
         static void Main(string[] args)
         {
             //klavyeden ekrana bir mesaj girin o mesajı bize 10 kere yazdır.
 
             Console.Write("Metni Girin: ");
             string blg = Console.ReadLine(); //bu değişken kullanıcının klavyeden girmiş olduğu değişkeni tutucak
-            yazdir(blg);
+            yazdir(blg);//metodumu çağırıyorum.Metodum blg'yi yazıcak
 
 
-            Console.Read();
+            Console.ReadLine();
         }
     }
 }
