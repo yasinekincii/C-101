@@ -10,7 +10,17 @@ namespace Class2
     {
         static void Main(string[] args)
         {
-           
+            Student ysn = new Student();//öğrenci sınıfından ysn isminde bir nesne ürettim
+
+            ysn.ADI = "Yasin";
+            ysn.SOYADI = "Ekinci";
+            ysn.ALANI = "Türkçe-Matematik";
+            ysn.YASI = 16;
+
+            Console.WriteLine("Ad= {0}, Soyad= {1}, Alanı= {2}, Yaşı= {3}", ysn.ADI, ysn.SOYADI, ysn.ALANI, ysn.YASI);
+
+            Console.ReadLine();
+
         }
     }
 }

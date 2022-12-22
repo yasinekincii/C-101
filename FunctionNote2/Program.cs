@@ -9,23 +9,16 @@ namespace FunctionNote2
     internal class Program
     {
 
-        private static void print(string info)
+      int fark(int s1,int s2)
         {
-
-            for (int i=0; i<3; i++)
-            {
-                Console.WriteLine(info);
-            }
-
+            return s1 - s2;
         }
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Yazdırmak istediğiniz metni giriniz: ");
-            string x = Console.ReadLine();
-            print(x);
-
-
+            Program mtr = new Program();
+            int x=mtr.fark(5,3);
+            Console.WriteLine("Fark = "+x);
 
             Console.ReadLine();
         }

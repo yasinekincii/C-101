@@ -15,6 +15,7 @@ namespace Class1
         public string gear;//vites
         public string licensePlate;
         private int wheel;//1'den 5'e kadar derecelendir.
+        //car sınıfımda tekerleği private olarak tanımladığım için mainde çıkmadı tekerlek
 
 
 

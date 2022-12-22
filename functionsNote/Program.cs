@@ -8,24 +8,20 @@ namespace functionsNote
 {
     internal class Program
     {
-        private static void worldCup()
+        private static int cube(int number)
         {
-            Console.WriteLine("Dünya kupası Katar'da düzenlendi.");
-            Console.WriteLine("İlk defa bir Dünya kupası kışın yapıldı.");
-            Console.WriteLine("Fas tarih yazdı.");
-            Console.WriteLine("Almanya gruplardan çıkamadı.");
-            Console.WriteLine("Final maçı 18 aralık günü oynanıcak.");
-            //Console.WriteLine(""DateTime.Now.ToLongDateString());
-
+            return number * number * number;
         }
 
 
         static void Main(string[] args)
         {
-            worldCup();
-
+            Console.Write("Kübünün hesaplanmasını istediğinizi sayıyı giriniz: ");
+            int n1 = Convert.ToInt16(Console.ReadLine());
+            Console.WriteLine("Girilen sayının kübü= "+cube(n1));
 
             Console.Read();
+
         }
     }
 }

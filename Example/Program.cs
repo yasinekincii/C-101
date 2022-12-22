@@ -10,30 +10,36 @@ namespace Example
     {
         static void Main(string[] args)
         {
-            double x = 0;
-            int i = 4;
-            double d = 4.0;
-            string s = "HackerRank ";
-            
-            int n = 12;
-            double o = 4.0;
-            string t = "is the best place to learn and practice coding!";
 
-            x = d + o;
-            x = Math.Round(x, 2);
+            Qasqai car = new Qasqai();
+            car.marka = "nissan";
+            car.hasarKaydi = 1500;
+            car.rengi = "Beyaz";
+            car.yili = 2015;
+            car.nerede = "istanbul";
 
-            Console.WriteLine(i+n);
-            Console.WriteLine(x);
-            Console.WriteLine(s+t);
+            Console.WriteLine("Marka="+car.marka);
+            Console.WriteLine("Hasar kaydı"+car.hasarKaydi);
+            Console.WriteLine("Rengi "+car.rengi);
+            Console.WriteLine("Üretim yılı "+car.yili);
+            Console.WriteLine("Nerede"+car.nerede);
+            Console.WriteLine("\n");
 
+            car.marka = "renault";
+            car.hasarKaydi = 10000;
+            car.rengi = "gri";
+            car.yili = 2008;
+            car.nerede = "İstanbul";
 
-
-
-
-
-
+            Console.WriteLine(car.marka);
+            Console.WriteLine(car.hasarKaydi);
+            Console.WriteLine(car.rengi);
+            Console.WriteLine(car.yili);
+            Console.WriteLine(car.nerede);
 
             Console.ReadLine();
+
+           
         }
     }
 }
