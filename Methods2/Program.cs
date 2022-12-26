@@ -22,12 +22,12 @@ namespace Methods2
             KullaniciEkle("Elif","Ekinci",false);//opsiyonel olmasına rağmen bu şekilde false yazığ isactive değerini değiştirebiliyorum
             Console.WriteLine("\n");
 
-            Team(
+            Team(//isimlendirerek değer veridğimiz için istediğimiz sırada yazabiliriz
+                oynar: false,
                 ad:"yasin",
                 soyad:"ekinci",
-                aktifMi:false,
-                oynar:false
-                
+                aktifMi:false
+                                
                 );
 
             Console.ReadLine();
