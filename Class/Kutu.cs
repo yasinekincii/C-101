@@ -8,7 +8,7 @@ namespace Class
 {
     internal class Kutu
     {
-        //Field(Alan)= Sınıf içerisinde tanımlanan değişkenlere denir.(Field'lar dışarıya kapalı olmalıdır.)
+        //Field(Alan)= Sınıf içerisinde tanımlanan değişkenlere denir.(Field'lar dışarıya kapalı olmalıdır.(varsayılan olarak dışarıya kapalıdırlar))
         private double uzunluk;
         double genislik;
         double yukseklik;
@@ -27,7 +27,7 @@ namespace Class
             Console.WriteLine("Nesne Kuruldu.");
 
             //constructordan önce bir işlem olmaz
-            // constructor sizin new ile üretilen nesneniz hafızada oluşturulurken xaten k'yı üreterek bize veren yapıdır.
+            // constructor sizin new ile üretilen nesneniz hafızada oluşturulurken zaten k'yı üreterek bize veren yapıdır.
         }
 
 
@@ -92,7 +92,7 @@ namespace Class
 
 
         //Microsoft iki metot yazma unut o metotu diyor.
-        //ben sana property diye bir nesne oluştururum kapsüllemeyi bununla yap
+        //ben sana property diye bir nesne oluştururum kapsüllemeyi bununla yap diyor
 
         public double Genislik//get ya da set diye bir şey yok çünkü tek bir property hem set hem de get yapabilir
         {
@@ -109,8 +109,11 @@ namespace Class
                 }
             }//bu satır set işlemini yönetir
 
-            //value nedir? setter metotlarda dışarıdan gelen veri parametre olarak geliyor.(property'de böyle parametre alanı olmadığı için onun yerine set işleminde bize value diye bir keyword veriyor)
-            //propertyde parametre alanı olmadığı için onun yerine set işleminde size value diye bir keyword veriyor diyor ki propertynin tipi neyse (burada double)sana set olarak gelecek olan herhangi bir veriyi valur nesnesi,keywordu üzerinden alabilirsin diyor
+            //value nedir? setter metotlarda dışarıdan gelen veri parametre olarak geliyor.
+            //(property'de böyle parametre alanı olmadığı için onun yerine set işleminde bize value diye bir keyword veriyor)
+
+            //propertyde parametre alanı olmadığı için onun yerine set işleminde size value diye bir keyword veriyor
+            //diyor ki propertynin tipi neyse (burada double)sana set olarak gelecek olan herhangi bir veriyi valur nesnesi,keywordu üzerinden alabilirsin diyor
 
         }
 

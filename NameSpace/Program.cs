@@ -11,7 +11,8 @@ namespace NameSpace
         static void Main(string[] args)
         {
             //NameSpace=
-            //namespaceler c#'ta projeyi derli toplu paket mantığıyla yönetebilmek için kullanılır.Yani siz bir proje açtığınız zaman bu solution içerisinde açılır ve solution otomatik olarak size bir namespace atar
+            //namespaceler c#'ta projeyi derli toplu paket mantığıyla yönetebilmek için kullanılır.Yani siz bir proje açtığınız zaman bu solution içerisinde açılır
+            //ve solution otomatik olarak size bir namespace atar
 
             ProjectA.TeamA.ClassA sinif1 = new ProjectA.TeamA.ClassA();
             sinif1.Yaz();

@@ -19,7 +19,8 @@ namespace Class_1
         {
             if (!string.IsNullOrEmpty(userName))//userName null ya da boş değilse
                 //null ise veya boş ise true değer döner
-                //ünlem işareti(sağındakinin olumsuzluğunu alır)yani başına ğnlem koyarsak sağın false olma durumu benim için true dur demek
+                //ünlem işareti(sağındakinin olumsuzluğunu alır)yani başına ğnlem
+                //koyarsak sağın false olma durumu benim için true dur demek
             {
                 //işlem yap
             }

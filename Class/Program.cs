@@ -11,9 +11,10 @@ namespace Class
         static void Main(string[] args)
         {
             //classlar bir programlama dilinde en çok kullanılan nesnelerdir.
-            //classlar aslında bir paket gibi çalışır içerisine birden fazla birden farklı türde nesne alabilen ve bunları işlevsel olarak kullanabilmek için topladığınız işlevselleştirebildiğiniz bir nesne yapısıdır.
+            //classlar aslında bir paket gibi çalışır içerisine birden fazla birden farklı türde nesne alabilen ve
+            // bunları işlevsel olarak kullanabilmek için topladığınız işlevselleştirebildiğiniz bir nesne yapısıdır.
 
-            //class içerisinde değişkenler nesneler metotlar tanımlayabiliyorsunuz
+            //class içerisinde değişkenler, nesneler, metotlar tanımlayabiliyorsunuz
 
             //Kutu sınıfının nesne örneğini üretelim
             //parantez aç kapa varsa o bir metottur demiştik.Peki bu parantez aç kapa nereden geliyor=constructor methottan
@@ -27,7 +28,8 @@ namespace Class
 
 
             //Boş Constructorı kapatırsam(1 tane parametreli kaldı).Biz de şimdi nesne oluşturduğumuzda parametre eklemezsek program parametre istiyorum diye hata vericek
-            //c# derleyicisi biz constructor oluşturana kadar(parametreli veya parametresiz)kendisi arka planda boş bir constructor oluşturuyor.Ama biz herhangi bir parametreli veya parametresiz bir constructor yazarsak artık kendisi üretmez
+            //c# derleyicisi biz constructor oluşturana kadar(parametreli veya parametresiz)kendisi arka planda boş bir constructor oluşturuyor.Ama biz herhangi bir parametreli
+            //veya parametresiz bir constructor yazarsak artık kendisi constructor üretmez
 
 
 

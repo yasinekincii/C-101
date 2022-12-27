@@ -27,6 +27,7 @@ namespace examplecb
             int n = text.Length;
             for(int i=text.Length-1,j=0; i>=0; i--,j++)
             {
+                char[] x =new char[text[i]];
                 
             }
 
