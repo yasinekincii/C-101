@@ -18,7 +18,9 @@ namespace examplecb
 
             Palindrom("ama");
 
-            Console.ReadLine();          
+            Console.ReadLine();   
+            
+
 
         }
 
