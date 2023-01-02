@@ -42,7 +42,7 @@ namespace hashTableExample
                     Console.Write("İngilizcesini girin: ");
                     string eng = Console.ReadLine();
 
-                    Console.Write("Türkçesini giriniz: ");
+                    Console.Write("Girilen: {0} değerinin Türkçesini giriniz: ",eng);
                     string tr = Console.ReadLine();
 
                     if (H1.ContainsKey(eng))
