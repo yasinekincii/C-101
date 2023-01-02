@@ -67,7 +67,7 @@ namespace array_List
 
             A1[3] = "Hamza Atilla";
 
-            object[] D1 = A1.ToArray();//arraylistemizin içerisinde bulunan tüm dataları bize dizi olarak verir
+            object[] D1 = A1.ToArray();//arraylist içerisinde bulunan tüm dataları bize dizi olarak verir
 
             A1.Clear(); //clear bütün değerleri silicek ama capacity aynı kalıcak
             A1.TrimToSize();//ilgili koleksiyonun sizeını yeniden boyutlandır(değer aldıktan sonraki ilk haline geri döndürdü)
