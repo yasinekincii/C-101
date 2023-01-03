@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-//C# ile alakalı herhangi bir platformda bşr uygulama açıyorsak usinglerin olduğunu göreceksin
+//C# ile alakalı herhangi bir platformda bir uygulama açıyorsak usinglerin olduğunu göreceksin
 
 //usingler nedir? .net flamework içerisinde kullanmış olduğumuz her komut bir kütüphaneden gelmekte(Console.WriteLine komutu => using system kütüphanesinden gelmekte)
 
@@ -23,9 +23,7 @@ namespace methods //bu namespace i başka bir uygulamada kütüphane olarak kull
             /*Main metodu:
              * main metodu bu ana kadar yapmış olduğumuz tüm uygulamalarımızın ana metodudur.
              * Console ve windows form uygulamalarımız arka tarafta başlangıç için uygulamanın ilk başlicağı metot olarak main metodunu tanır.
-             * Maindeki scope um benim uygulamamın tüm kodlarını bir şekilde barındırır.Son scope a geldiğimde uygulamamdan artık çıkmış olurum 
-             *  
-             *  
+             * Maindeki scope um benim uygulamamın tüm kodlarını bir şekilde barındırır.Son scope a geldiğimde uygulamamdan artık çıkmış olurum                         
              */
 
             //uzun bir şekilde yazım
