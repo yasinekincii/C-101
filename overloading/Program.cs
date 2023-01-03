@@ -17,7 +17,19 @@ namespace overloading
             //yazmış olduğumuz metotların parametre adetleri ya da parametre tipleri değişebilir
             //bu değişkenlikler aynı geri dönüş tipine ve aynı metot adına sahipse uygulama içerisinde bu şekilde aşırı yüklenme ile karşınıza çıkar
 
+           decimal sonuc= topla(5M, 3M);
+            print(sonuc);
+
+            print(topla(10M,10M));
+
+
+
             Console.ReadLine();
+        }
+
+        static void print(object o)
+        {
+            Console.WriteLine(o.ToString());
         }
 
         static void topla(int sayi1,int sayi2)
@@ -26,10 +38,10 @@ namespace overloading
             Console.WriteLine(toplam);
         }
 
-        static void topla(decimal sayi1,decimal sayi2)
+        static decimal topla(decimal sayi1,decimal sayi2)
         {
             decimal toplam = sayi1 + sayi2;
-            Console.WriteLine(toplam);
+            return toplam;
         }
 
         static void topla(string metin1,string metin2)
