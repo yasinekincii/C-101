@@ -35,9 +35,12 @@ namespace method_Example2
             not3 = decimal.Parse(Console.ReadLine());
 
             Student O = new Student();
-            O.ogrenciNotHesapla(ogrenciAd, ogrenciSoyad, not1, not2,not3);
+            O.ogrenciNotHesapla(ogrenciAd, ogrenciSoyad, not1, not2,not3);//not2'ye virgül koyduğumuzda not3 köşeli parantez içerisinde gözüküyor.Bu da decimal not3 değeri opsiyoneldir.Eğer sen bir değer girersen ben senin girmiş olduğun değeri baz alırım ve işlemlerimi ona göre sürdürürüm, eğer sen bu değeri girmezsen ben buna 45 değerini atarım o şekilde devam ederim
+
+            //O.ogrenciNotHesapla(ogrenciAd, ogrenciSoyad, not1, not2);
 
             Console.ReadLine();
         }
+
     }
 }
