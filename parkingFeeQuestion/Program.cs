@@ -33,6 +33,7 @@ namespace parkingFeeQuestion
         {
             Class2 C3 = new Class2();
             typeOfCar = typeOfCar.ToLower();
+            
 
             if (typeOfCar == "taksi")
             {
@@ -64,6 +65,7 @@ namespace parkingFeeQuestion
 
             if (saat<=1&&saat>0)
             {
+                Console.WriteLine($"Otopark Ücretiniz: {price}");
                 
             }
             else if (saat>1)
