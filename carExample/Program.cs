@@ -10,19 +10,18 @@ namespace carExample
     {
         static void Main(string[] args)
         {
-            Car C1 = new Car("merc","c");          
+            Car C1 = new Car();
 
-            
-            C1.BilgileriGoruntule();
+            C1.marka = "mercedes";
+            C1.model = "E";
+            C1.modelYil = 2022;
+            C1.km = 41.138;
+            C1.satisFiyati = 600;
+            C1.maxindirimTutari = 10;
 
-            
-            C1.alisFiyati = 30;
-            C1.satisFiyati = 210;
-            C1.maxIndirimTutari = 10;
-            C1.FiyatAta(150);
+            C1.FiyatAta(590);
 
-
-
+          
 
             Console.ReadLine();
         }

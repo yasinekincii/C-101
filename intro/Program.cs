@@ -56,22 +56,14 @@ namespace intro
 
             bool musteriKont = M2.MusteriKontrol();
 
-            //M2.musterikontroldatabase     yapamıyoruz çünkü kontroldatabase metodunun erişim belirleyicisi private
-            
-            
-            
-            
-            
+            //M2.musterikontroldatabase     yapamıyoruz çünkü kontroldatabase metodunun erişim belirleyicisi private         
+                       
+                        
             M3 = null;
             M2 = null;
             M1 = null;
 
             string isim = M3.isim;
-
-
-
-
-
 
         }
     }
