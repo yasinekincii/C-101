@@ -36,6 +36,8 @@ namespace ex1
                 goto YenidenBasla;
             }
 
+
+
             Console.ReadLine();
             
         }

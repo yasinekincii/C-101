@@ -11,21 +11,20 @@ namespace xxx
     {
         static void Main(string[] args)
         {
-            Student S = new Student();
+            //Klavyeden girilen bir cümledeki kelime sayısını bulunuz.
 
-            Console.WriteLine("Öğrencinin adını soyadını girin:");
-            string name = Console.ReadLine();
+            Console.WriteLine("Bir cümle girin: ");
+            string text = Console.ReadLine();               //kullanıcıdan alınan değer text değişkenine atandı.
+            int numberOfWords = 0;                          
 
-            Console.Write("Öğrencinin 1.sınav notunu giriniz: ");
-            double grade1 = Convert.ToDouble(Console.ReadLine());
+            string[] words = text.Split(' ');               //kullanıcının girdiği metini boşluklar arasından ayırdı.
 
-            Console.Write("Öğrencinin 1.sınav notunu giriniz: ");
-            double grade2 = Convert.ToDouble(Console.ReadLine());
+            foreach (var word in words)
+            {
+                numberOfWords++;                            //her bir elemanda sayacımı bir arttırıyorum.
+            }
+            Console.WriteLine($"\nGirilen metindeki kelime sayısı: {numberOfWords}");       //sayacım dizimdeki eleman sayısını göstericek.
 
-            Console.Write("Öğrencinin 1.sınav notunu giriniz: ");
-            double grade3 = Convert.ToDouble(Console.ReadLine());
-
-            S.grades(name, grade1, grade2, grade3);
 
 
 
