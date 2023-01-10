@@ -38,7 +38,7 @@ namespace encapsulation
             //M1.emailAdres = "yekinci@hotmail.com";(Field)
             #region Field değer ataması yaptık ve değeri okuduk.
 
-            M1.EmailAdres = "yekinci@hotmail.com";
+            //M1.EmailAdres = "yekinci@hotmail.com";        son örnek için yorum satılarına aldım.
             #endregion
 
 
@@ -52,6 +52,20 @@ namespace encapsulation
             #region example
 
             M1.TCKimlikNumarasi = "12345678911";
+
+            #endregion
+
+
+            #region Son kısım
+
+            //isim ve soyisim
+            //email adresi..
+            //email get cengiz.atilla@hotmail.com
+            //set:private
+
+            M1.isim = "ahmet";
+            M1.Soyisim = "inanç";
+            Console.WriteLine(M1.EmailAdres);
 
             #endregion
 

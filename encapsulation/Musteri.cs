@@ -49,11 +49,7 @@ namespace encapsulation
 
 
 
-        #endregion
-
-        public string isim;
-        public string soyisim;
-
+        #endregion     
 
 
         #region 1. Kısım
@@ -74,7 +70,7 @@ namespace encapsulation
             //dış dünyadan alınan datanın içeride private olarak saklanan field içerisine değer atandığı kısım
 
             //bana değer geldiğinde set bloğum çalışacak=> VALUE dediğimiz anahtar kelime ile ben bana gelen değeri yakalayabiliyorum
-            set {
+            private set {
                 this.emailAdres = value;    //value'nun içinde=> yekinci@hotmail.com bilgisi bulunuyor
                                             //ben bu bilgiyi nereye atayacağım=>Bu classın içerisinde bulunan emailadres olarak yazmış olduğum ve private olarak saklamış olduğum field'ın içerisine atayacağım
             }
@@ -138,6 +134,32 @@ namespace encapsulation
 
         }
         #endregion
+
+
+        #region 3. kısım
+        public string isim;
+        private string _soyisim;
+
+        public string Soyisim
+        {
+            get
+            {
+                return this._soyisim;
+
+            }
+            set
+            {
+                this._soyisim = value;
+                this.emailAdres = string.Format($"{isim}.{_soyisim}@hotmail.com");
+
+            }
+        }
+
+        #endregion
+
+
+
+
 
 
 
